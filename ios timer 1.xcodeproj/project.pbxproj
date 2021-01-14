@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284E3E9125B07DCE0035F6D2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E3E9025B07DCE0035F6D2 /* TestViewController.swift */; };
+		284E3E9625B089CF0035F6D2 /* SetTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E3E9525B089CF0035F6D2 /* SetTimeViewController.swift */; };
 		28E5598825A0EA770008BA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5598725A0EA770008BA54 /* AppDelegate.swift */; };
 		28E5598A25A0EA770008BA54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5598925A0EA770008BA54 /* SceneDelegate.swift */; };
 		28E5598C25A0EA770008BA54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5598B25A0EA770008BA54 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		284E3E9025B07DCE0035F6D2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		284E3E9525B089CF0035F6D2 /* SetTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimeViewController.swift; sourceTree = "<group>"; };
 		28E5598425A0EA770008BA54 /* ios timer 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios timer 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E5598725A0EA770008BA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E5598925A0EA770008BA54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 		28E5597B25A0EA770008BA54 = {
 			isa = PBXGroup;
 			children = (
+				284E3E9525B089CF0035F6D2 /* SetTimeViewController.swift */,
+				284E3E9025B07DCE0035F6D2 /* TestViewController.swift */,
 				28E5598625A0EA770008BA54 /* ios timer 1 */,
 				28E5599D25A0EA770008BA54 /* ios timer 1Tests */,
 				28E559A825A0EA770008BA54 /* ios timer 1UITests */,
@@ -260,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284E3E9625B089CF0035F6D2 /* SetTimeViewController.swift in Sources */,
 				28E5598C25A0EA770008BA54 /* ViewController.swift in Sources */,
 				28E5598825A0EA770008BA54 /* AppDelegate.swift in Sources */,
+				284E3E9125B07DCE0035F6D2 /* TestViewController.swift in Sources */,
 				28E5598A25A0EA770008BA54 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
